@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/ds-digital" rel="stylesheet">
+</head>
+<body>
+<div class="content">
+    <div class="wrapper">
+        <div class="calculator">
+            <div class="formula-screen" id="formula-screen"></div>
+            <div class="output-display" id="display">0</div>
+            <div class="buttons" onclick="handleButtonClick(event)">
+                <button class="jumbo ac" value="AC">AC</button>
+                <button class="operators" value="/">/</button>
+                <button class="operators" value="*">*</button>
+                <button class="digits" value="7">7</button>
+                <button class="digits" value="8">8</button>
+                <button class="digits" value="9">9</button>
+                <button class="operators" value="-">-</button>
+                <button class="digits" value="4">4</button>
+                <button class="digits" value="5">5</button>
+                <button class="digits" value="6">6</button>
+                <button class="operators" value="+">+</button>
+                <button class="digits" value="1">1</button>
+                <button class="digits" value="2">2</button>
+                <button class="digits" value="3">3</button>
+                <button class="jumbo digits" id="zero" value="0">0</button>
+                <button class="digits" value=".">.</button>
+                <button class="operators" id="equals" value="=">=</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
